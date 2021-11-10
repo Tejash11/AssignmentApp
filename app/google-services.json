@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1632835445",
+    "firebase_url": "https://assignmentapp-56a52-default-rtdb.firebaseio.com",
+    "project_id": "assignmentapp-56a52",
+    "storage_bucket": "assignmentapp-56a52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1632835445:android:8b47b747a6ea7c84c0253c",
+        "android_client_info": {
+          "package_name": "com.example.assignmentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1632835445-0gt97um1lf0544udiude27vqjtcp6217.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvSZQ3ySxf4_vBqbLVS9SJ8ADXUVruB2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1632835445-0gt97um1lf0544udiude27vqjtcp6217.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

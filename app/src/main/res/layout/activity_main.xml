@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/lightbluebg">
+
+        <EditText
+            android:id="@+id/filename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Choose Pdf from Storage"
+            android:textAlignment="center"
+            android:textColorHint="@color/black"
+            android:fontFamily="@font/oxygen"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/uploadbtn"
+                android:layout_width="170dp"
+                android:layout_height="30dp"
+                android:text="Upload"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:fontFamily="@font/oxygen"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:background="@drawable/lightbluebg"
+                android:layout_margin="10dp"
+                android:padding="2dp"/>
+
+            <TextView
+                android:id="@+id/downloadbtn"
+                android:layout_width="170dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/lightbluebg"
+                android:textAllCaps="true"
+                android:fontFamily="@font/oxygen"
+                android:gravity="center_horizontal"
+                android:padding="2dp"
+                android:text="Download"
+                android:onClick="downloadpdfbutton"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
